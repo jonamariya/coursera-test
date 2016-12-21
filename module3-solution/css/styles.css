@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Courier New, Courier, monospace;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: left;
+}
+#button , .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+#header-nav > .container{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+#header-nav{
+    border: 2px solid black;
+    background-color: grey;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+#nav-list {
+  margin: 0;
+  background-color: white;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle {
+  border: 1px solid white;
+  background-color: grey;
+}
+ .navbar-header .icon-bar{
+border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+li a {
+    border: 1px solid black;
+}
+#main-content{
+    background-color: white;
+}
+h2{ 
+  font-family: Courier New, Courier, monospace;
+  color: black;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+div.menu-tile{
+ background-color: grey;
+ margin-bottom: 15px;
+ width: 100%;
+ padding: 10px;
+ height:400px;
+}
+h3{
+font-family: Courier New, Courier, monospace;
+  color: black;
+  font-weight: bold;
+  margin-top: auto;
+  text-align: center;
+}
+#collapsable-nav {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  border: 2px solid black;
+  border-top: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
