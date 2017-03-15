@@ -1,0 +1,16 @@
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+    version="2.0">
+
+   <persistence-unit name="my-persistence-unit" transaction-type="RESOURCE_LOCAL">
+       <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.java.application.jobsearch.dto.StudentDetails</class>
+         <properties>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
+        <property name="hibernate.connection.driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/jobportal" />
+		<property name="hibernate.connection.username" value="root" />
+		<property name="hibernate.connection.password" value="pass" />
+        </properties>
+   </persistence-unit>
+</persistence>
