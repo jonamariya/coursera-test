@@ -49,7 +49,9 @@ body {
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
 }
-
+#navbarToggle {
+  background: coral;
+}
 #nav-list {
   margin-top: 10px;
 }
